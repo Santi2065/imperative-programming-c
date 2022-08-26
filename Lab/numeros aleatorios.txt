@@ -1,0 +1,2 @@
+<stdlb.h>   rand me da un numero aleatorio entre 0 y RANDMAX
+            srand setea la semilla srand(time(NULL))

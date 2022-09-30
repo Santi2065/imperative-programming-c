@@ -1,27 +1,32 @@
+#define FILS 3
+#define COLS 4
 #include <stdio.h>
-int vect(const int*v, const int dim,int*menor,int*mayor,float*prom){
-
-    if(v[0]==0){
-        return 0;
-    }
-    for(int n=1;n<dim;n++){
-        if(v[n]<*menor){
-            *menor=v[n];
+int matrix(int mat[FILS][COLS]){
+    int comp=mat[0][0],aux=0;
+    for(int f=0;f<FILS;f++){
+        for(int c=0;c<COLS;c++){
+            if(comp<mat[f][c]){
+                if(aux==-1){
+                    return 0;
+                }
+                aux=1;
+            }
+            if(comp>mat[f][c]){
+                if(aux==1){
+                    return 0;
+                }
+                aux=-1;
+            }
+            comp=mat[f][c];
         }
-        if(v[n]>*mayor){
-            *mayor=v[n];
-        }
-        *prom=*prom+v[n];
     }
-    *prom=(*prom/dim);
-    return 1;
+    return aux;
 }
-
-int main (){
-
-    int v[3]={1,10,3};
-    int mayor=v[0],menor=v[0];
-    float prom=0;
-    vect(v,3,&mayor,&menor,&prom);
-     printf("el mayor es:%d, el menor es:%d, el promedio es:%.2f",mayor,menor,prom);
+void main(){
+    int m1[FILS][COLS] = {
+        {19,13,12,8},
+        {7,7,5,-1},
+        {-6,-10,-14,-15}
+    };
+    printf("%d",matrix(m1));
 }

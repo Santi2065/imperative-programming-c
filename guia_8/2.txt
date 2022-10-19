@@ -1,0 +1,6 @@
+a) Las estructuras pueden contener únicamente un tipo de datos. F
+b) Dos uniones pueden ser comparadas entre sí para determinar si son iguales. V
+c) La palabra reservada typedef se utiliza para definir nuevos tipos de datos. V
+d) Las estructuras no pueden ser comparadas. V
+e) Una estructura de n elementos siempre ocupa más memoria que n variables del mismo tipo que los campos de la estructura. F
+f) Con  typedef int Matriz[5][10]  se reservan  50 * sizeof(int) bytes de memoria. V

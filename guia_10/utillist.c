@@ -39,9 +39,10 @@ void freeList(TList list) {
 }
 
 TList delete(TList list){
-  if(list->tail == NULL)
-    return;
-  list->elem=list->tail;
+  if(list->tail == NULL){
+    return list;
+  }
+  list->elem=list->tail->elem;
   return delete(list->tail);
 }
 

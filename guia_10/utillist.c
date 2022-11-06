@@ -38,12 +38,20 @@ void freeList(TList list) {
     free(list);
 }
 
-TList delete(TList list){
-  if(list->tail == NULL){
+TList delete(TList list, int elem){
+    if(list == NULL) {
+        return list;
+    }
+
+    if(list->elem == elem) {
+        TList aux = list->tail;
+        free(list);
+        return aux;
+    }
+
+    list->tail = delete(list->tail, elem);
+
     return list;
-  }
-  list->elem=list->tail->elem;
-  return delete(list->tail);
 }
 
 int get(const TList list, unsigned int i){

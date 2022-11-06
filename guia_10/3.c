@@ -2,10 +2,15 @@
 #include <stdlib.h>
 #include "utillist.h"
 
-TList order(TList list){
-    if(list==NULL)
-        return list;
-    if(list->elem>=list->tail->elem)
-        list->elem=list->tail->elem;
-    return order(list->tail);
+void order(TList list){
+    if(list == NULL || list->tail == NULL)
+        return;
+    if(list->elem>=list->tail->elem){
+        TList aux = list->tail;
+        list->tail=aux->tail;
+        free(aux);
+        order(list);
+    }
+    else
+        order(list->tail);
 }

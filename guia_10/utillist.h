@@ -26,7 +26,7 @@ int checkElems(const TList list, const int v[], int dim);
 */
 void freeList(TList list);
 
-TList delete(TList list);
+TList delete(TList list, int elem);
 
 int get(const TList list, unsigned int i);
 #endif

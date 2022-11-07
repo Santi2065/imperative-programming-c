@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {
-        "contar vector": "cpp"
+        "contar vector": "cpp",
+        "utillist.h": "c"
     }
 }

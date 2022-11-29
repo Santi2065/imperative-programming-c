@@ -58,3 +58,4 @@ void main(){
     int v[9]={1,2,2,4,4,6,6,6,-1};
     printL(listCpy(vecList(v)));
 }
+

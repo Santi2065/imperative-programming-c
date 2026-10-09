@@ -26,7 +26,7 @@ Instituto Tecnológico de Buenos Aires (ITBA) · *72.31 Imperative Programming* 
 
 ## 2. Contents
 
-**Table 1.** Map of the repository. Topics of TP 3 to TP 8 are the titles of the guides kept in `pdfs/`; the others are inferred from the solutions.
+**Table 1.** Map of the repository. Topics of TP 3 to TP 8 are the titles of the course guides (not redistributed here); the others are inferred from the solutions.
 
 | Folder | Unit | Topic | Highlights |
 |---|---|---|---|
@@ -35,7 +35,7 @@ Instituto Tecnológico de Buenos Aires (ITBA) · *72.31 Imperative Programming* 
 | `guia_3/` | TP 3 | Control flow | character filters on `stdin`, loops |
 | `guia_4/` | TP 4 | Macros and functions | GCD, macros (`swap`, `DIVISOR`, `ESFERA`), function design |
 | `guia_5/` | TP 5 | Functions and the standard library | variable scope and lifetime, `<math.h>` |
-| — | TP 6 | Arrays, pointers and strings | statement in `pdfs/TP_06.pdf`, no solutions folder |
+| — | TP 6 | Arrays, pointers and strings | no solutions folder |
 | `guia_7/` | TP 7 | Advanced programming and the heap | `malloc`/`free`, hangman and bingo games, names split by course |
 | `guia_8/` | TP 8 | Structures | `struct`, `union`, fixing heap misuse |
 | `guia_9/` | TP 9 | Recursion | recursive sums, dot product, binary search, string functions |
@@ -100,7 +100,7 @@ python docs/figures/make_figures.py
 |---|---|
 | `guia_1/` … `guia_11/` | Solutions to the practice guides (TP 6 has none) |
 | `Lab/`, `clases/`, `parciales/`, `TADS/` | Labs, lecture code, midterm practice, exam-style ADTs |
-| `pdfs/` | Guide statements TP 3–TP 8 and the course test programs for TP 7 and TP 8 (Spanish) |
+| `pdfs/` | Course test programs for TP 7 and TP 8 |
 | `getnum.c`, `getnum.h`, `rand.c`, `rand.h` | Input and random-number helpers used across guides |
 | `AlgThink/Intro/FoodLines.c` | A warm-up problem outside the course guides |
 | `docs/figures/` | Script and style used for the figures in this README |

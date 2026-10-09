@@ -1,0 +1,4 @@
+# Compiled outputs
+*.out
+*.o
+*.exe

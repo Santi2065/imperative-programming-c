@@ -117,6 +117,6 @@ Guide statements, slides, test programs and the `getnum` and `utillist` helpers 
   title        = {Imperative Programming in C: A Semester of Exercises, Labs and ADTs},
   year         = {2022},
   howpublished = {Instituto Tecnol{\'o}gico de Buenos Aires, 72.31 Imperative Programming},
-  url          = {https://github.com/Santi2065/PI}
+  url          = {https://github.com/Santi2065/imperative-programming-c}
 }
 ```

@@ -151,8 +151,8 @@ z
    </g>
    <g id="patch_17">
     <path d="M 43.490391 220.32 
-L 153.974391 220.32 
-L 153.974391 211.770616 
+L 143.930391 220.32 
+L 143.930391 211.770616 
 L 43.490391 211.770616 
 z
 " clip-path="url(#p9658dec15e)" style="fill: #6a4c93; opacity: 0.9; stroke: #6a4c93; stroke-width: 0.6; stroke-linejoin: miter"/>
@@ -2400,7 +2400,7 @@ z
    </g>
    <g id="text_40">
     <!-- Midterm practice (1st and 2nd) -->
-    <g style="fill: #1a1a1a" transform="translate(157.991991 218.408308) scale(0.085 -0.085)">
+    <g style="fill: #1a1a1a" transform="translate(147.947991 218.408308) scale(0.085 -0.085)">
      <use xlink:href="#LMRoman10-Regular-4a"/>
      <use xlink:href="#LMRoman10-Regular-42" transform="translate(91.703125 0)"/>
      <use xlink:href="#LMRoman10-Regular-2f" transform="translate(119.5 0)"/>

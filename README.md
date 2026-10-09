@@ -16,7 +16,7 @@ Instituto Tecnológico de Buenos Aires (ITBA) · *72.31 Imperative Programming* 
 
 </div>
 
-> **Abstract.** This repository is my working log for ITBA's *Imperative Programming* (72.31), a first-year programming course taught in C. It holds 146 C source files written between August and November 2022: solutions to ten of the eleven practice guides (TPs), lab sessions, code typed along the lectures, practice for the two midterms and exam-style abstract data types. The material climbs from `printf` and control flow to macros, the standard library, the heap, structures, recursion, linked lists and opaque ADTs. Re-running the course's `assert`-based test programs against my solutions in this session, 9 of 10 pass; the remaining one fails to link because the second variant of the exercise was never written. The log is kept as it was during the semester, including drafts that do not compile.
+> **Abstract.** This repository is my working log for ITBA's *Imperative Programming* (72.31), a first-year programming course taught in C. It holds 145 C source files written between August and November 2022: solutions to ten of the eleven practice guides (TPs), lab sessions, code typed along the lectures, practice for the two midterms and exam-style abstract data types. The material climbs from `printf` and control flow to macros, the standard library, the heap, structures, recursion, linked lists and opaque ADTs. Re-running the course's `assert`-based test programs against my solutions in this session, 9 of 10 pass; the remaining one fails to link because the second variant of the exercise was never written. The log is kept as it was during the semester, including drafts that do not compile.
 
 ---
 
@@ -48,7 +48,7 @@ Instituto Tecnológico de Buenos Aires (ITBA) · *72.31 Imperative Programming* 
 
 <p align="center"><img src="docs/figures/fig1-course-map.svg" width="88%" alt="Horizontal bar chart of the number of C files per practice guide, colored by course block"></p>
 
-**Figure 1.** C source files I wrote per folder (146 in total), excluding the test programs and helper libraries handed out by the course (`*_test.c`, `getnum`, `utillist`). Early guides have many short exercises; later ones have fewer, longer ones.
+**Figure 1.** C source files I wrote per folder (145 in total), excluding the test programs and helper libraries handed out by the course (`*_test.c`, `getnum`, `utillist`). Early guides have many short exercises; later ones have fewer, longer ones.
 
 <p align="center"><img src="docs/figures/fig2-timeline.svg" width="88%" alt="Timeline from August to December 2022 with one row per folder and one dot per commit"></p>
 
